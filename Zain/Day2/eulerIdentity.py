@@ -3,8 +3,8 @@ from sympy import *
 import streamlit as st
 
 def my_function():
-  return(E**(pi*I) + 1)
   try:
-    my_function()
+    return(E**(pi*I) + 1)
   except:
     st.write("Error")
+my_function()
