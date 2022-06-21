@@ -1,0 +1,6 @@
+-Interitance means an object inheriting reusable properties of the base class.
+-Composition means that an object holds other objects.
+-In inheritance we can only extand one class while composition allows to use functionality from different classes.
+-Inheritance needs a parents class and composition is independent from concept of child or parent class
+-Inheritance can't extend final class while composition can use code from final class.
+-In simple words, iheritance is an is-a relationship and composition is a has-a relationship.
