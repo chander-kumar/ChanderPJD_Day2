@@ -1,5 +1,5 @@
 import streamlit as st
-import Khizer.euler as app
+from formula.euler import euler as app
 
 def Euler():
   st.write("## Euler  Applet")
