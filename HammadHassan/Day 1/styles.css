@@ -1,0 +1,62 @@
+#container {
+    border-radius:10px;
+    background-color: rgb(127, 180, 226);
+    width:400px;
+    margin-left:30%;
+    margin-right:30%;
+ 
+}
+
+input {
+    width: 90%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #E8E8E8; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    margin-right:5%;
+    margin-left:5%;
+    resize: none /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+#display {
+    border-radius:10px;
+    /* background-color: rgb(79, 190, 190); */
+    width:350px;
+    height:50px;
+    margin-top:20px;
+    margin-left:30%;
+    margin-right:30%;
+}
+#result {
+    background-color: #EB6767;
+    color: white;
+    font-weight:bold;
+    padding: 9px 50px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* margin-left:30%;
+    margin-right:30%; */
+}
+
+#event_button{
+    background-color: #EB6767;
+    color: white;
+    font-weight:bold;
+    padding: 9px 50px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+#event_button:hover{
+    background-color: white;
+    color:#EB6767 ;
+    border: 2px solid #EB6767;
+    align-items: center;
+}

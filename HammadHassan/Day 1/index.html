@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="styles.css">
+
+    <div id="container">
+    <div class="inp">
+        <p>Mass Value</p>
+      <input id="mass_slider" type="range" step="0.01" min="0.0" max="500.0" oninput="mass_box.value=mass_slider.value" />
+      <input id="mass_box" type="number" value="100" min="0.0" max="500.0" oninput="mass_slider.value=mass_box.value" />
+    </div>
+    <div class="inp">
+        <p>Velocity Value</p>
+      <input id="velocity_slider" type="range" step="0.01" min="0" max="500" oninput="velocity_box.value=velocity_slider.value" />
+      <input id="velocity_box" type="number" value="100" min="0" max="500" oninput="velocity_slider.value=velocity_box.value" />
+    </div>
+    <button id="event_button" >show result</button>
+ </div>
+  <div id="display">
+  <input type="text" id="result" disabled/>
+</div>
+
+  <script src="src.js">
+</script>
+  
