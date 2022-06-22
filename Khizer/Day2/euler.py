@@ -1,6 +1,5 @@
 # EULERS METHOD
 #  Yn+1 = Yn + h * f(x,y)
-
 # function f(x , y) = x + y
 
 def f(x , y):
